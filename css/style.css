@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lobster&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../image1.jpg");
+    height: 100vh;
+}
+
+h1{
+    /* margin-top: 2px;  */
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 190px;
+    height: 100px;
+}
+
+.container{
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    max-width: 955px;
+    border: 2px solid black;
+    margin: auto;
+    height: 55vh;
+    padding: 25px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 6px;
+}
+
+.message{
+    /* background-color: rgb(220,248,198); */
+    background-color: cyan;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    font-family: 'Dongle', sans-serif;
+   text-align: center;
+   display: block;
+   margin: auto;
+   max-width: 1085px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 38px;
+    width: 9%;
+    font-size: 13px;
+    background-color: rgb(220,248,198);
+
+}
+.copyright-text{
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    font-size: 15px;
+    color: var(--text-black-600);
+    transform: translateY(-50%) rotate(-90deg);
+}
